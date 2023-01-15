@@ -110,7 +110,7 @@ function buildCharts(sample) {
     Plotly.newPlot("bar", [barData], barLayout);
 
     // Deliverable 2: 1. Create the trace for the bubble chart.
-    var bubbleData = [{
+    var bubbleData = {
       x: otuIDs,
       y: sampleVals,
       text: otuLabs,
@@ -120,7 +120,9 @@ function buildCharts(sample) {
         color: otuIDs,
         colorscale: "Earth"
       }
-    }];
+    }
+  ;
+  console.log(bubbleData);
 
     // Deliverable 2: 2. Create the layout for the bubble chart.
     var bubbleLayout = {
@@ -129,6 +131,7 @@ function buildCharts(sample) {
       showlegend: false,
       hovermode: "closest"
     };
+    console.log(bubbleLayout);
 
     // Deliverable 2: 3. Use Plotly to plot the data with the layout.
     Plotly.newPlot("bubble", [bubbleData], bubbleLayout);   
@@ -141,7 +144,11 @@ function buildCharts(sample) {
       type: "indicator",
       mode: "gauge+number",
       gauge: {
-        axis: {range: [0,10]},
+        axis: {
+          range: [0,10],
+          tickwidth: 1,
+          tickcolor: "black"},
+        bar: {color: "black"},
         steps: [
           {range: [0,2], color:"red"},
           {range: [2,4], color:"orange"},
@@ -163,5 +170,5 @@ function buildCharts(sample) {
     Plotly.newPlot("gauge", [gaugeData], gaugeLayout);
 
   });
- };
+ }
 
