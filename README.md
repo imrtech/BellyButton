@@ -7,30 +7,27 @@ In this project we created a dashboard that displayed information about bacteria
 
 ## Result
 
-![title](https:/imrtech.github.io/static/images/customizedashboard.png)
+![title](imrtech.github.io/static/images/customizedashboard.png)
  
 We built out the dropdown list, bar chart, gauge chart and bubble chart using Javascript, Plotly and HTML. 
   
 - When an ID is selected from the dropdown menu, demographic information for the selected volunteer is displayed, and the three charts are updated.  
        
-![title](https:/imrtech.github.io/static/images/dropdownmenu.png)
+![title](imrtech.github.io/static/images/dropdownmenu.png)
 
 Bar chart
-- The horizontal bar chart identifys the subject's top 10 bacterial species in their navel.
-      
-![title](https:/imrtech.github.io/static/images/toptenbacteria.png)
+- The horizontal bar chart identifys the subject's top 10 bacterial species in their navel.    
+![title](imrtech.github.io/static/images/toptenbacteria.png)
 
   
 Gauge chart
-- The gauge chart reveals reveals how often does the subject clean his belly button.
-      
-![title](https:/imrtech.github.io/static/images/bbwashfreq.png)
+- The gauge chart reveals reveals how often does the subject clean his belly button.  
+![title](imrtech.github.io/static/images/bbwashfreq.png)
 
   
-Bubble chart
+Bubble Chart
 - The bubble chart displays bacteria culture test result for each sample.
-       
-![title](https:/imrtech.github.io/static/images/bacteriaculturesamples.png)
+![title](imrtech.github.io/static/images/bacteriaculturesamples.png)
 
   
 Customize dashboard
@@ -38,7 +35,4 @@ Customize dashboard
 ![title](http://biodiversity.institute.ufl.edu/wp-content/uploads/2017/02/bacteria.jpg)
 
 - Project overview paragraph was added.
-- Text color and background color and bar chart color were changed. 
-
-           
-         
+- Text color and background color and bar chart color were changed.     
